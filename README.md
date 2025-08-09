@@ -1,4 +1,15 @@
-##Project Overview
-#Guestbook application
+## Project Overview – Guestbook Application
 
-Guestbook is a simple web application that we will build and deploy with Docker and Kubernetes. The application consists of a web front end which will have a text input where you can enter any text and submit. For all of these we will create Kubernetes Deployments and Pods. Then we will apply Horizontal Pod Scaling to the Guestbook application and finally work on Rolling Updates and Rollbacks.
+The **Guestbook** is a simple web application that we will build and deploy using **Docker** and **Kubernetes**.  
+
+The application includes:  
+- **Web Frontend**: A user interface with a text input field for entering and submitting messages.  
+- **Kubernetes Deployments and Pods**: Each component will be containerized and managed through Kubernetes.  
+
+**Key steps in the project:**  
+1. Deploy the Guestbook frontend and backend using Kubernetes Deployments and Pods.  
+2. Implement **Horizontal Pod Autoscaling** to ensure the application can handle increased traffic.  
+3. Perform **Rolling Updates** to release new versions without downtime.  
+4. Apply **Rollbacks** when needed to restore a previous stable version.  
+
+This project will demonstrate a complete workflow for containerized application deployment, scaling, and lifecycle management in Kubernetes.
